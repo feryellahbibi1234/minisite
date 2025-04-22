@@ -1,14 +1,31 @@
-# Mini-Site Web
+## Minister Website
 
-Ce projet est un mini-site web statique créé dans le cadre d'un projet collaboratif utilisant Git et GitHub.
+This is a simple static website built with HTML to provide information about the Minister.
 
-## Fonctionnalités :
-- **Page d'accueil** : Présentation du projet.
-- **Page de contact** : Formulaire pour nous contacter avec validation JavaScript.
+## 📁 Project Structure
 
-## Instructions pour exécuter :
-1. Clonez le projet :
-   ```bash
-   git clone https://github.com/amira5554/mini-site-collaboratif.git
-# mini-site-collaboratif
-Projet collaboratif de site web statique avec Git et GitHub
+
+## 💻 Technologies Used
+
+- HTML
+- CSS
+
+## 📄 Pages
+
+- **index.html** – Home page  
+- **about.html** – Information about the Minister  
+- **contact.html** – Contact form or details  
+
+## 🔧 How to Use
+
+1. Clone or download this repository.
+2. Open `index.html` in any web browser.
+
+## 📬 Contact
+
+For questions or feedback, feel free to reach out!
+
+
+
+
+
