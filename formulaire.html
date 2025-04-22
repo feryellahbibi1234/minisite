@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simple Form Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Formulaire Page </h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Form</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Fill Out the Form</h2>
+    <p>Please provide your information below.</p>
+
+    <form action="#" method="post" style="margin-top: 30px; width: 100%; max-width: 500px;">
+      <div style="margin-bottom: 20px; text-align: left;">
+        <label for="name">Name</label><br />
+        <input type="text" id="name" name="name" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;" />
+      </div>
+
+      <div style="margin-bottom: 20px; text-align: left;">
+        <label for="email">Email</label><br />
+        <input type="email" id="email" name="email" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;" />
+      </div>
+
+      <div style="margin-bottom: 20px; text-align: left;">
+        <label for="message">Message</label><br />
+        <textarea id="message" name="message" rows="5" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;"></textarea>
+      </div>
+
+      <button type="submit" style="padding: 12px 30px; background-color: #ff8c94; color: white; border: none; border-radius: 5px; font-size: 1rem; cursor: pointer;">Submit</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Website. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
